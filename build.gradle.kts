@@ -27,10 +27,11 @@ dependencies {
     implementation("com.fasterxml.jackson:jackson-bom:2.11.3")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.11.3")
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.11.3")
-    implementation("org.apache.kafka:kafka-clients:2.6.0")
+    implementation("org.apache.kafka:kafka-clients:2.7.0")
 
     // Use JUnit test framework.
     testImplementation("junit:junit:4.13")
+    testImplementation("info.batey.kafka:kafka-unit:1.0")
 }
 
 application {
